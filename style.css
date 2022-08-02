@@ -1,0 +1,121 @@
+*{
+
+    margin: 0;
+    padding: 0;
+  
+  }
+  .header{
+      min-height: 100vh;
+      width: 100%;
+      background-image: url("images/cartoon.png");
+    background-position: center;
+    position: relative;
+    background-size: cover;
+  }
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 100px;
+}
+.nav-links ul li {
+    padding: 12px;
+    position: relative;
+    display: inline;
+    
+
+ 
+}
+.nav-links{
+    
+    color:#fff ;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color:#fff ;
+    font: size 15px; ;
+}
+.text-box{
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    transform: translate(-30%,70%) ;
+    text-align: left;
+
+    
+}
+.text-box h1{
+    font-size: 100px; 
+    font-family: fantasy;
+}
+.boom{
+    text-align: left;
+    left: 6%;
+    position: absolute;
+
+}
+
+@media(max-width:700px) {
+    .text-box h1{
+        font-size: 40px
+    } 
+        
+
+
+
+}
+@media(max-width:600px){
+    .nav-links ul li {
+        padding: 1px;
+        
+        position: relative;
+        display: list-item;
+
+}
+}
+.trend{
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,50%);
+    left: 95%;
+    
+    top: 72%;
+    color: dimgrey;
+    font-family: monospace;
+    font-style: italic;
+    float: inline-end;
+}
+.trend a{
+    color: maroon;
+}
+.rent{
+    width: 100%;
+    position: absolute;
+    left: 50px;
+}
+.rent{
+    float: none;
+    align-items: center;
+    display: inline;
+
+
+}
+.bhusi{
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%,50%);
+    left: 99%;
+    top: 76%;
+    
+    
+}
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+  

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>music.hat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/sony.png" alt="IMG LOGO"></a>
+            <div class="nav-links">
+                
+                <ul>
+                    <li> <a href="">HOME</a></li>
+                    <li> <a href="">ABOUT</a></li>
+                    <li> <a href="music.html">MUSIC</a></li>
+                    <li> <a href="">YOUTUBE-RATED SONGS</a></li>
+                    <li> <a href="">CONTACT</a> </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>FEEL THE <br> MUSIC</h1>
+            <p class="boom">feel,fly,peace</p>
+
+
+
+        </div>
+        <div class="trend">
+            <p> click here to listen</p>
+        
+            
+            
+            
+        
+
+
+
+
+        </div>
+        <div class="bhusi"><img src="images/red.png.jpg" id="icon"></div>
+
+        <audio id="mysong">
+
+            <source src="images/vikram.mp3" type="audio/mp3"> 
+
+<script>
+    var mysong = document.getElementById("mysong");
+    var icon = document.getElementById("icon");
+
+    icon.onclick = function(){
+        if(mysong.paused){
+            mysong.play();
+            icon.src ="images/code.png.jpg";
+        }else{
+            mysong.pause();
+            icon.src ="images/red.png.jpg";
+
+
+        }
+        
+    }
+    
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+        </audio>
+    
+</body>
+</html>
